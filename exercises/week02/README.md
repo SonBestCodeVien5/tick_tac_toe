@@ -459,3 +459,40 @@ README.md
 
 **Previous**: [Week 1 Exercises](../week01/)  
 **Next**: [Week 3 Exercises](../week03/)
+
+---
+
+### **🖥️ GitHub Desktop Alternative**
+
+Tất cả exercises có thể được thực hiện bằng **GitHub Desktop** thay vì command line. Chọn method bạn prefer:
+
+#### **GitHub Desktop Setup cho Exercises:**
+1. **Download & Install**: https://desktop.github.com/
+2. **Login** với GitHub account
+3. **Ready for exercises** - Use visual interface thay vì commands
+
+#### **Exercise Execution Options:**
+
+**Option A: Command Line** (Recommended cho professional skills)
+```bash
+git clone https://github.com/username/repo.git
+git add .
+git commit -m "Message"
+git push origin main
+```
+
+**Option B: GitHub Desktop** (Recommended cho visual learners)
+```
+1. File → Clone repository → Enter URL
+2. Edit files → Return to GitHub Desktop
+3. Review changes → Write message → Commit
+4. Push origin button
+```
+
+#### **🔄 Hybrid Approach:**
+- **Try both methods** cho each exercise
+- **Compare experience** - which feels more natural?
+- **Learn concepts** using preferred method
+- **Challenge yourself** với less comfortable method
+
+**💡 Goal**: By end of Week 2, bạn should be comfortable với both approaches!

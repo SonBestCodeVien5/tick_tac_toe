@@ -40,10 +40,18 @@ tick_tac_toe/
 ## 🚀 Bắt đầu
 Xem file `KE_HOACH_TONG_QUAT.md` để biết chi tiết kế hoạch học tập.
 
+### 🛠️ Git Workflow Options
+Curriculum hỗ trợ **2 cách làm việc với Git**:
+- **⌨️ Command Line Git** - Professional development approach
+- **🖥️ GitHub Desktop** - Visual, user-friendly interface
+
+Choose method phù hợp với learning style của bạn!
+
 ## 📚 Tài liệu tham khảo
 - [cppreference.com](https://cppreference.com) - C++ reference
 - [learncpp.com](https://www.learncpp.com) - C++ tutorials
 - [Pro Git Book](https://git-scm.com/book) - Git documentation
+- [GitHub Desktop](https://desktop.github.com) - Visual Git client
 
 ---
 **Ngày bắt đầu**: 19/06/2025  

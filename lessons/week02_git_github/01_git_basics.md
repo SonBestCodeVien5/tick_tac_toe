@@ -405,6 +405,149 @@ git commit --amend -m "New message"
 
 ---
 
+## 🖥️ **GitHub Desktop Alternative - Visual Git Management**
+
+### **📋 GitHub Desktop Setup**
+
+Nếu bạn prefer visual interface, GitHub Desktop là excellent choice cho việc học Git concepts:
+
+#### **Installation & Setup:**
+1. **Download**: https://desktop.github.com/
+2. **Install** và login với GitHub account của bạn
+3. **Clone repository**: File → Clone repository → từ GitHub.com
+
+#### **GitHub Desktop Interface:**
+```
+Main Window:
+├── Repository List (left sidebar)
+├── Current Repository Info
+├── Branch Selector
+├── Changes Tab (unstaged/staged files)
+├── History Tab (commit history)
+└── Toolbar (fetch, push, pull buttons)
+```
+
+### **📊 Command Line vs GitHub Desktop**
+
+#### **✅ GitHub Desktop Advantages:**
+- **Visual diff viewer** - See changes side-by-side
+- **Easy file staging** - Checkbox interface
+- **Branch visualization** - Clear branch structure
+- **Beginner friendly** - No command memorization
+- **Integration** - Works seamlessly với VS Code
+
+#### **✅ Command Line Advantages:**
+- **Full Git power** - Access to all Git features
+- **Automation friendly** - Scriptable operations
+- **Industry standard** - Professional development skill
+- **Faster** - No UI overhead cho experienced users
+- **SSH support** - Better authentication options
+
+### **🔄 Parallel Learning Approach**
+
+#### **Week 2 Strategy:**
+```
+Day 1-2: GitHub Desktop basics
+    ├── Learn visual Git concepts
+    ├── Practice clone, commit, push
+    └── Understand branch visualization
+
+Day 3-4: Command line fundamentals  
+    ├── Learn terminal Git commands
+    ├── Practice same operations
+    └── Compare both approaches
+
+Day 5-7: Hybrid usage
+    ├── Daily work: Choose preferred method
+    ├── Learning: Try both approaches
+    └── Complex tasks: Command line practice
+```
+
+---
+
+## 🖥️ **GitHub Desktop Workflows**
+
+### **Basic Repository Operations:**
+
+#### **1. Clone Repository:**
+```
+GitHub Desktop Steps:
+1. File → Clone repository
+2. GitHub.com tab
+3. Search/select your repository
+4. Choose local path
+5. Click "Clone"
+```
+
+#### **2. Daily Workflow:**
+```
+GitHub Desktop Process:
+1. Open GitHub Desktop
+2. Select your repository
+3. Click "Fetch origin" (check for updates)
+4. Edit files trong VS Code
+5. Return to GitHub Desktop
+6. Review changes trong "Changes" tab
+7. Write commit message
+8. Click "Commit to main"
+9. Click "Push origin"
+```
+
+#### **3. Branch Management:**
+```
+Create Branch:
+1. Click "Current branch" dropdown
+2. "New branch"
+3. Enter branch name
+4. "Create branch"
+
+Switch Branch:
+1. Click "Current branch" dropdown  
+2. Select branch từ list
+3. Automatically switches
+```
+
+### **Advanced GitHub Desktop Features:**
+
+#### **1. Conflict Resolution:**
+```
+When conflicts occur:
+1. GitHub Desktop shows conflict indicator
+2. Click "Open in external editor"
+3. Resolve conflicts trong VS Code
+4. Return to GitHub Desktop
+5. Mark conflicts as resolved
+6. Complete merge commit
+```
+
+#### **2. Stashing (GitHub Desktop way):**
+```
+GitHub Desktop equivalent to stash:
+1. Work in progress on files
+2. Need to switch branches
+3. Commit work với "WIP: description"
+4. Switch branches
+5. Later: Reset commit để continue work
+```
+
+### **🎯 When to Use Each Tool:**
+
+#### **📱 Use GitHub Desktop For:**
+- **Learning Git concepts** - Visual learning
+- **Daily commits** - Quick and easy
+- **File comparison** - Visual diff viewer
+- **Branch switching** - One-click operation
+- **Beginner operations** - User-friendly interface
+
+#### **💻 Use Command Line For:**
+- **Complex Git operations** - rebase, cherry-pick
+- **Automation** - Scripts và batch operations
+- **Troubleshooting** - Detailed control
+- **Professional skill** - Industry expectation
+- **Advanced workflows** - Multiple remotes, submodules
+
+---
+
 ## 📚 Tài liệu tham khảo
 - [Pro Git Book](https://git-scm.com/book) - Free official Git book
 - [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/) - Quick reference
